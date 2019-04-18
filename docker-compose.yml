@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  app:
+    image: evilfreelancer/silverengine:latest
+    ports:
+    - 80:80
+    volumes:
+    - ./silverengine:/app:rw
