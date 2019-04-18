@@ -3,4 +3,4 @@ WORKDIR /app
 
 RUN rm -R ./*
 RUN git clone https://github.com/SilverEngine/Framework.git .
-RUN composer install --no-dev
+RUN composer install
